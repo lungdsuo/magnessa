@@ -129,7 +129,7 @@ load_language(TRUE, array('sales', 'common'));
             <th><?php echo $this->lang->line('sales_discount');  ?></th>
             <!--   <th><? php // echo $this->lang->line('sales_discount'); 
                         ?></th> -->
-            <th><?php echo "Total PV" ?></th>
+            <th><?php echo "PV" ?></th>
             <th><?php echo $this->lang->line('sales_total'); ?></th>
         </tr>
 
@@ -192,7 +192,7 @@ load_language(TRUE, array('sales', 'common'));
         <tr>
             <td colspan="<?php echo $invoice_columns - 2; ?>" class="blank-bottom"> </td>
             <td colspan="2" class="total-line"><textarea rows="5" cols="6"><?php //echo $this->lang->line('sales_sub_total'); 
-                                                                            echo "Total PV's"; ?></textarea></td>
+                                                                            echo "Total PV"; ?></textarea></td>
             <td class="total-value"><textarea rows="5" cols="6" id="subtotal"><?php
                                                                                 // echo to_currency($subtotal); 
                                                                                 echo $totalgrosspvs; ?></textarea></td>
