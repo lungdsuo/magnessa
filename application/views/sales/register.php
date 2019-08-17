@@ -145,6 +145,9 @@ if (isset($success)) {
                 </td>
 				<td><?php
 				$pv = $CI->sale_lib->get_item_pv($item['name']);
+				if($pv== ""){
+					$pv=0;
+				}
 				$totalpv = $pv * $item['quantity'];
 				$totalgrosspvs += $totalpv;
 				echo $totalpv;
@@ -247,7 +250,7 @@ if (isset($success)) {
 			}
 			?>
 			<tr>
-				<td colspan="10">
+				<td colspan="10" style="font-weight:bold;">
 					TOTAL PV - <?php echo $totalgrosspvs; ?>
 				</td>
 			</tr>
