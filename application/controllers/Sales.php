@@ -23,8 +23,13 @@ class Sales extends Secure_Controller
 	}
 	public function sample()
 	{
-		$val = $this->sale_lib->get_item_pv('Dia Shield  [ 5 PV ]');
-		echo $val;
+
+		$data = $this->Sale->get_sales_items_items_id(4);
+		print_r($data);
+		foreach ($data as $row) {
+			echo $row['item_id'];
+		}
+		//echo $this->Sale->get_sales_items_items_id(4);
 	}
 
 	public function manage()

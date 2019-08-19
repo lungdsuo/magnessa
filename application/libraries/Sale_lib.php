@@ -621,11 +621,23 @@ class Sale_lib
 	}
 	/*  author : Lungdsuo Mozhui
 	  method to get_item pv */
-	public function get_item_pv($item_id)
+	public function get_item_pv($item_name)
 	{
-		$item_info = $this->CI->Item->get_info_by_name($item_id);
+		$item_info = $this->CI->Item->get_info_by_name($item_name);
 		return $item_info->custom1;
 	}
+	public function get_item_pv_by_id($item_id)
+	{
+		$item_info = $this->CI->Item->get_info_by_id($item_id);
+		return $item_info->custom1;
+	}
+	/* gets the item id from the sales items table */
+	public function get_sales_items_items_id($sale_id)
+	{
+		//$this->CI->Sale->get_sales_items_items_id($sale_id);
+		return $$this->CI->Sale->get_sales_items_items_id($sale_id);;
+	}
+
 	public function add_item(&$item_id, $quantity = 1, $item_location, $discount = 0, $price_mode = PRICE_MODE_STANDARD, $kit_price_option = NULL, $kit_print_option = NULL, $price_override = NULL, $description = NULL, $serialnumber = NULL, $include_deleted = FALSE, $print_option = NULL)
 	{
 		$item_info = $this->CI->Item->get_info_by_id_or_number($item_id);

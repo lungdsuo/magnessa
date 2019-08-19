@@ -7,6 +7,7 @@
 /*
 Basic tabular headers function
 */
+
 function transform_headers_readonly($array)
 {
 	$result = array();
@@ -63,8 +64,9 @@ function get_sales_manage_table_headers()
 		array('customer_name' => $CI->lang->line('customers_customer')),
 		array('amount_due' => $CI->lang->line('sales_amount_due')),
 		array('amount_tendered' => $CI->lang->line('sales_amount_tendered')),
-		array('change_due' => $CI->lang->line('sales_change_due')),
-		array('payment_type' => $CI->lang->line('sales_payment_type'))
+		array('change_due' => "Total PV"),
+		array('payment_type' => $CI->lang->line('sales_payment_type')),
+
 	);
 
 	if ($CI->config->item('invoice_enable') == TRUE) {
@@ -84,14 +86,36 @@ function get_sale_data_row($sale)
 {
 	$CI = &get_instance();
 	$controller_name = $CI->uri->segment(1);
+	$data = $CI->Sale->get_sales_items_items_id($sale->sale_id);
+	//$CI->load->library('sale_lib');
+	//$item_info = $CI->Item->get_info_by_id(2);
+	$pv_val = 0;
+	foreach ($data as $row) {
+		$item_info = $CI->Item->get_info_by_id($row['item_id']);
+		//$pv = $item_info;
+		if (empty($item_info)) {
+			$pv = 0;
+		} else {
+			$pv = $item_info;
+		}
+		if (empty($row['quantity_purchased'])) {
+			$quantity = 0;
+		} else {
+			$quantity = $row['quantity_purchased'];
+		}
+		//$pv = $CI->sale_lib->get_item_pv_by_id($row['item_id']);
+		//$pv = $row['item_id'];
 
+		$pv_val += $pv * $quantity;
+		//echo $row['item_id'];
+	}
 	$row = array(
 		'sale_id' => $sale->sale_id,
 		'sale_time' => date($CI->config->item('dateformat') . ' ' . $CI->config->item('timeformat'), strtotime($sale->sale_time)),
 		'customer_name' => $sale->customer_name,
 		'amount_due' => to_currency($sale->amount_due),
 		'amount_tendered' => to_currency($sale->amount_tendered),
-		'change_due' => to_currency($sale->change_due),
+		'change_due' => $pv_val,
 		'payment_type' => $sale->payment_type
 	);
 
@@ -138,8 +162,8 @@ function get_sale_data_last_row($sales)
 		'sale_id' => '-',
 		'sale_time' => '<b>' . $CI->lang->line('sales_total') . '</b>',
 		'amount_due' => '<b>' . to_currency($sum_amount_due) . '</b>',
-		'amount_tendered' => '<b>' . to_currency($sum_amount_tendered) . '</b>',
-		'change_due' => '<b>' . to_currency($sum_change_due) . '</b>'
+		'amount_tendered' => '<b>' . to_currency($sum_amount_tendered) . '</b>'
+		/* 'change_due' => '<b>' . to_currency($sum_change_due) . '</b>' */
 	);
 }
 
