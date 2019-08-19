@@ -160,6 +160,9 @@ load_language(TRUE, array('sales', 'common'));
             <td style='text-align:center;'><textarea rows="4" cols="6"><?php //
                                                                                 //echo $item['discount'] . '%';
                                                                                 $pv = $CI->sale_lib->get_item_pv($item['name']);
+                                                                                if (empty($pv)) {
+                                                                                    $pv = 0;
+                                                                                }
                                                                                 $totalpv = $pv * $item['quantity'];
                                                                                 $totalgrosspvs += $totalpv;
                                                                                 echo $totalpv; ?></textarea>
