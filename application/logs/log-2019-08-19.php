@@ -28281,3 +28281,2878 @@ INFO - 2019-08-19 19:06:22 --> Language file loaded: language/en-GB/suppliers_la
 INFO - 2019-08-19 19:06:22 --> Language file loaded: language/en-GB/taxes_lang.php
 INFO - 2019-08-19 22:36:23 --> Final output sent to browser
 DEBUG - 2019-08-19 22:36:23 --> Total execution time: 0.2772
+INFO - 2019-08-19 19:07:34 --> Config Class Initialized
+INFO - 2019-08-19 19:07:34 --> Hooks Class Initialized
+DEBUG - 2019-08-19 19:07:34 --> UTF-8 Support Enabled
+INFO - 2019-08-19 19:07:34 --> Utf8 Class Initialized
+INFO - 2019-08-19 19:07:34 --> URI Class Initialized
+INFO - 2019-08-19 19:07:34 --> Router Class Initialized
+INFO - 2019-08-19 19:07:34 --> Output Class Initialized
+INFO - 2019-08-19 19:07:34 --> Security Class Initialized
+DEBUG - 2019-08-19 19:07:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 19:07:34 --> CSRF cookie sent
+INFO - 2019-08-19 19:07:34 --> Input Class Initialized
+INFO - 2019-08-19 19:07:34 --> Language Class Initialized
+INFO - 2019-08-19 19:07:34 --> Loader Class Initialized
+INFO - 2019-08-19 19:07:34 --> Helper loaded: form_helper
+INFO - 2019-08-19 19:07:34 --> Helper loaded: url_helper
+INFO - 2019-08-19 19:07:34 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 19:07:34 --> Helper loaded: text_helper
+INFO - 2019-08-19 19:07:34 --> Helper loaded: locale_helper
+INFO - 2019-08-19 19:07:34 --> Helper loaded: html_helper
+INFO - 2019-08-19 19:07:34 --> Helper loaded: download_helper
+INFO - 2019-08-19 19:07:34 --> Helper loaded: directory_helper
+INFO - 2019-08-19 19:07:34 --> Helper loaded: migration_helper
+INFO - 2019-08-19 19:07:34 --> Database Driver Class Initialized
+INFO - 2019-08-19 19:07:34 --> Form Validation Class Initialized
+INFO - 2019-08-19 19:07:34 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 19:07:34 --> User Agent Class Initialized
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 19:07:34 --> Pagination Class Initialized
+DEBUG - 2019-08-19 19:07:34 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 19:07:34 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 19:07:34 --> Encryption Class Initialized
+INFO - 2019-08-19 19:07:34 --> Model "Appconfig" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Person" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Customer" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Employee" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Module" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Item" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Sale" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Supplier" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Inventory" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Receiving" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Giftcard" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Item_kit" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Stock_location" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Rewards" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Tax" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Expense_category" initialized
+INFO - 2019-08-19 19:07:34 --> Model "Expense" initialized
+INFO - 2019-08-19 19:07:34 --> Controller Class Initialized
+DEBUG - 2019-08-19 19:07:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 19:07:34 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 19:07:34 --> Email Class Initialized
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 19:07:34 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 22:37:34 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 22:37:34 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 22:37:34 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 22:37:34 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 22:37:34 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 22:37:34 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/register.php
+INFO - 2019-08-19 22:37:34 --> Final output sent to browser
+DEBUG - 2019-08-19 22:37:34 --> Total execution time: 0.1176
+INFO - 2019-08-19 19:07:38 --> Config Class Initialized
+INFO - 2019-08-19 19:07:38 --> Hooks Class Initialized
+DEBUG - 2019-08-19 19:07:38 --> UTF-8 Support Enabled
+INFO - 2019-08-19 19:07:38 --> Utf8 Class Initialized
+INFO - 2019-08-19 19:07:38 --> URI Class Initialized
+INFO - 2019-08-19 19:07:38 --> Router Class Initialized
+INFO - 2019-08-19 19:07:38 --> Output Class Initialized
+INFO - 2019-08-19 19:07:38 --> Security Class Initialized
+DEBUG - 2019-08-19 19:07:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 19:07:38 --> CSRF cookie sent
+INFO - 2019-08-19 19:07:38 --> Input Class Initialized
+INFO - 2019-08-19 19:07:38 --> Language Class Initialized
+INFO - 2019-08-19 19:07:38 --> Loader Class Initialized
+INFO - 2019-08-19 19:07:38 --> Helper loaded: form_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: url_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: text_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: locale_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: html_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: download_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: directory_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: migration_helper
+INFO - 2019-08-19 19:07:38 --> Database Driver Class Initialized
+INFO - 2019-08-19 19:07:38 --> Form Validation Class Initialized
+INFO - 2019-08-19 19:07:38 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 19:07:38 --> User Agent Class Initialized
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 19:07:38 --> Pagination Class Initialized
+DEBUG - 2019-08-19 19:07:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 19:07:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 19:07:38 --> Encryption Class Initialized
+INFO - 2019-08-19 19:07:38 --> Model "Appconfig" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Person" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Customer" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Employee" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Module" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Sale" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Supplier" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Inventory" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Receiving" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Giftcard" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item_kit" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Stock_location" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Rewards" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Tax" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Expense_category" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Expense" initialized
+INFO - 2019-08-19 19:07:38 --> Controller Class Initialized
+DEBUG - 2019-08-19 19:07:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 19:07:38 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 19:07:38 --> Email Class Initialized
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 22:37:38 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 22:37:38 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 22:37:38 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+INFO - 2019-08-19 22:37:38 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/daterangepicker.php
+INFO - 2019-08-19 22:37:38 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/bootstrap_tables_locale.php
+INFO - 2019-08-19 22:37:38 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 22:37:38 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 22:37:38 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/manage.php
+INFO - 2019-08-19 22:37:38 --> Final output sent to browser
+DEBUG - 2019-08-19 22:37:38 --> Total execution time: 0.1053
+INFO - 2019-08-19 19:07:38 --> Config Class Initialized
+INFO - 2019-08-19 19:07:38 --> Hooks Class Initialized
+DEBUG - 2019-08-19 19:07:38 --> UTF-8 Support Enabled
+INFO - 2019-08-19 19:07:38 --> Utf8 Class Initialized
+INFO - 2019-08-19 19:07:38 --> URI Class Initialized
+INFO - 2019-08-19 19:07:38 --> Router Class Initialized
+INFO - 2019-08-19 19:07:38 --> Output Class Initialized
+INFO - 2019-08-19 19:07:38 --> Security Class Initialized
+DEBUG - 2019-08-19 19:07:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 19:07:38 --> CSRF cookie sent
+INFO - 2019-08-19 19:07:38 --> Input Class Initialized
+INFO - 2019-08-19 19:07:38 --> Language Class Initialized
+INFO - 2019-08-19 19:07:38 --> Loader Class Initialized
+INFO - 2019-08-19 19:07:38 --> Helper loaded: form_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: url_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: text_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: locale_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: html_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: download_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: directory_helper
+INFO - 2019-08-19 19:07:38 --> Helper loaded: migration_helper
+INFO - 2019-08-19 19:07:38 --> Database Driver Class Initialized
+INFO - 2019-08-19 19:07:38 --> Form Validation Class Initialized
+INFO - 2019-08-19 19:07:38 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 19:07:38 --> User Agent Class Initialized
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 19:07:38 --> Pagination Class Initialized
+DEBUG - 2019-08-19 19:07:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 19:07:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 19:07:38 --> Encryption Class Initialized
+INFO - 2019-08-19 19:07:38 --> Model "Appconfig" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Person" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Customer" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Employee" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Module" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Sale" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Supplier" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Inventory" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Receiving" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Giftcard" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item_kit" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Stock_location" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Rewards" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Tax" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Expense_category" initialized
+INFO - 2019-08-19 19:07:38 --> Model "Expense" initialized
+INFO - 2019-08-19 19:07:38 --> Controller Class Initialized
+DEBUG - 2019-08-19 19:07:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 19:07:38 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 19:07:38 --> Email Class Initialized
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 19:07:38 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 22:37:38 --> Final output sent to browser
+DEBUG - 2019-08-19 22:37:38 --> Total execution time: 0.1365
+INFO - 2019-08-19 19:07:42 --> Config Class Initialized
+INFO - 2019-08-19 19:07:42 --> Hooks Class Initialized
+DEBUG - 2019-08-19 19:07:42 --> UTF-8 Support Enabled
+INFO - 2019-08-19 19:07:42 --> Utf8 Class Initialized
+INFO - 2019-08-19 19:07:42 --> URI Class Initialized
+INFO - 2019-08-19 19:07:42 --> Router Class Initialized
+INFO - 2019-08-19 19:07:42 --> Output Class Initialized
+INFO - 2019-08-19 19:07:42 --> Security Class Initialized
+DEBUG - 2019-08-19 19:07:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 19:07:43 --> CSRF cookie sent
+INFO - 2019-08-19 19:07:43 --> Input Class Initialized
+INFO - 2019-08-19 19:07:43 --> Language Class Initialized
+INFO - 2019-08-19 19:07:43 --> Loader Class Initialized
+INFO - 2019-08-19 19:07:43 --> Helper loaded: form_helper
+INFO - 2019-08-19 19:07:43 --> Helper loaded: url_helper
+INFO - 2019-08-19 19:07:43 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 19:07:43 --> Helper loaded: text_helper
+INFO - 2019-08-19 19:07:43 --> Helper loaded: locale_helper
+INFO - 2019-08-19 19:07:43 --> Helper loaded: html_helper
+INFO - 2019-08-19 19:07:43 --> Helper loaded: download_helper
+INFO - 2019-08-19 19:07:43 --> Helper loaded: directory_helper
+INFO - 2019-08-19 19:07:43 --> Helper loaded: migration_helper
+INFO - 2019-08-19 19:07:43 --> Database Driver Class Initialized
+INFO - 2019-08-19 19:07:43 --> Form Validation Class Initialized
+INFO - 2019-08-19 19:07:43 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 19:07:43 --> User Agent Class Initialized
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 19:07:43 --> Pagination Class Initialized
+DEBUG - 2019-08-19 19:07:43 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 19:07:43 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 19:07:43 --> Encryption Class Initialized
+INFO - 2019-08-19 19:07:43 --> Model "Appconfig" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Person" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Customer" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Employee" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Module" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Item" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Sale" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Supplier" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Inventory" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Receiving" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Giftcard" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Item_kit" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Stock_location" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Rewards" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Tax" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Expense_category" initialized
+INFO - 2019-08-19 19:07:43 --> Model "Expense" initialized
+INFO - 2019-08-19 19:07:43 --> Controller Class Initialized
+DEBUG - 2019-08-19 19:07:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 19:07:43 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 19:07:43 --> Email Class Initialized
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 19:07:43 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 22:37:43 --> Final output sent to browser
+DEBUG - 2019-08-19 22:37:43 --> Total execution time: 0.3595
+INFO - 2019-08-19 19:08:22 --> Config Class Initialized
+INFO - 2019-08-19 19:08:22 --> Hooks Class Initialized
+DEBUG - 2019-08-19 19:08:22 --> UTF-8 Support Enabled
+INFO - 2019-08-19 19:08:22 --> Utf8 Class Initialized
+INFO - 2019-08-19 19:08:22 --> URI Class Initialized
+INFO - 2019-08-19 19:08:22 --> Router Class Initialized
+INFO - 2019-08-19 19:08:22 --> Output Class Initialized
+INFO - 2019-08-19 19:08:22 --> Security Class Initialized
+DEBUG - 2019-08-19 19:08:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 19:08:22 --> CSRF cookie sent
+INFO - 2019-08-19 19:08:22 --> Input Class Initialized
+INFO - 2019-08-19 19:08:22 --> Language Class Initialized
+INFO - 2019-08-19 19:08:22 --> Loader Class Initialized
+INFO - 2019-08-19 19:08:22 --> Helper loaded: form_helper
+INFO - 2019-08-19 19:08:22 --> Helper loaded: url_helper
+INFO - 2019-08-19 19:08:22 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 19:08:22 --> Helper loaded: text_helper
+INFO - 2019-08-19 19:08:22 --> Helper loaded: locale_helper
+INFO - 2019-08-19 19:08:22 --> Helper loaded: html_helper
+INFO - 2019-08-19 19:08:22 --> Helper loaded: download_helper
+INFO - 2019-08-19 19:08:22 --> Helper loaded: directory_helper
+INFO - 2019-08-19 19:08:22 --> Helper loaded: migration_helper
+INFO - 2019-08-19 19:08:22 --> Database Driver Class Initialized
+INFO - 2019-08-19 19:08:22 --> Form Validation Class Initialized
+INFO - 2019-08-19 19:08:22 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 19:08:22 --> User Agent Class Initialized
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 19:08:22 --> Pagination Class Initialized
+DEBUG - 2019-08-19 19:08:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 19:08:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 19:08:22 --> Encryption Class Initialized
+INFO - 2019-08-19 19:08:22 --> Model "Appconfig" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Person" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Customer" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Employee" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Module" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Item" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Sale" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Supplier" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Inventory" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Receiving" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Giftcard" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Item_kit" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Stock_location" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Rewards" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Tax" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Expense_category" initialized
+INFO - 2019-08-19 19:08:22 --> Model "Expense" initialized
+INFO - 2019-08-19 19:08:22 --> Controller Class Initialized
+DEBUG - 2019-08-19 19:08:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 19:08:22 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 19:08:22 --> Email Class Initialized
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 19:08:22 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 22:38:22 --> Final output sent to browser
+DEBUG - 2019-08-19 22:38:22 --> Total execution time: 0.3557
+INFO - 2019-08-19 20:00:18 --> Config Class Initialized
+INFO - 2019-08-19 20:00:18 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:00:18 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:00:18 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:00:18 --> URI Class Initialized
+INFO - 2019-08-19 20:00:18 --> Router Class Initialized
+INFO - 2019-08-19 20:00:18 --> Output Class Initialized
+INFO - 2019-08-19 20:00:18 --> Security Class Initialized
+DEBUG - 2019-08-19 20:00:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:00:18 --> CSRF cookie sent
+INFO - 2019-08-19 20:00:18 --> Input Class Initialized
+INFO - 2019-08-19 20:00:18 --> Language Class Initialized
+INFO - 2019-08-19 20:00:18 --> Loader Class Initialized
+INFO - 2019-08-19 20:00:18 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:00:18 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:00:18 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:00:18 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:00:18 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:00:18 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:00:18 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:00:18 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:00:18 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:00:18 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:00:18 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:00:18 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:00:18 --> User Agent Class Initialized
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:00:18 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:00:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:00:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:00:18 --> Encryption Class Initialized
+INFO - 2019-08-19 20:00:18 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Person" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Customer" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Employee" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Module" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Item" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Sale" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Tax" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:00:18 --> Model "Expense" initialized
+INFO - 2019-08-19 20:00:18 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:00:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:00:18 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:00:18 --> Email Class Initialized
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:00:18 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:30:18 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:30:18 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:30:18 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:30:18 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:30:18 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:30:18 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/register.php
+INFO - 2019-08-19 23:30:18 --> Final output sent to browser
+DEBUG - 2019-08-19 23:30:18 --> Total execution time: 0.2972
+INFO - 2019-08-19 20:00:22 --> Config Class Initialized
+INFO - 2019-08-19 20:00:22 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:00:22 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:00:22 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:00:22 --> URI Class Initialized
+INFO - 2019-08-19 20:00:22 --> Router Class Initialized
+INFO - 2019-08-19 20:00:22 --> Output Class Initialized
+INFO - 2019-08-19 20:00:22 --> Security Class Initialized
+DEBUG - 2019-08-19 20:00:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:00:22 --> CSRF cookie sent
+INFO - 2019-08-19 20:00:22 --> Input Class Initialized
+INFO - 2019-08-19 20:00:22 --> Language Class Initialized
+INFO - 2019-08-19 20:00:22 --> Loader Class Initialized
+INFO - 2019-08-19 20:00:22 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:00:22 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:00:22 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:00:22 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:00:22 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:00:22 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:00:22 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:00:22 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:00:22 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:00:22 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:00:22 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:00:22 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:00:22 --> User Agent Class Initialized
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:00:22 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:00:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:00:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:00:22 --> Encryption Class Initialized
+INFO - 2019-08-19 20:00:22 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Person" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Customer" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Employee" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Module" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Item" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Sale" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Tax" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:00:22 --> Model "Expense" initialized
+INFO - 2019-08-19 20:00:22 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:00:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:00:22 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:00:22 --> Email Class Initialized
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:00:22 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:30:22 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:30:22 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:30:22 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+INFO - 2019-08-19 23:30:22 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/daterangepicker.php
+INFO - 2019-08-19 23:30:22 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/bootstrap_tables_locale.php
+INFO - 2019-08-19 23:30:22 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:30:22 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:30:22 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/manage.php
+INFO - 2019-08-19 23:30:22 --> Final output sent to browser
+DEBUG - 2019-08-19 23:30:22 --> Total execution time: 0.1088
+INFO - 2019-08-19 20:00:22 --> Config Class Initialized
+INFO - 2019-08-19 20:00:22 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:00:23 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:00:23 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:00:23 --> URI Class Initialized
+INFO - 2019-08-19 20:00:23 --> Router Class Initialized
+INFO - 2019-08-19 20:00:23 --> Output Class Initialized
+INFO - 2019-08-19 20:00:23 --> Security Class Initialized
+DEBUG - 2019-08-19 20:00:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:00:23 --> CSRF cookie sent
+INFO - 2019-08-19 20:00:23 --> Input Class Initialized
+INFO - 2019-08-19 20:00:23 --> Language Class Initialized
+INFO - 2019-08-19 20:00:23 --> Loader Class Initialized
+INFO - 2019-08-19 20:00:23 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:00:23 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:00:23 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:00:23 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:00:23 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:00:23 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:00:23 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:00:23 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:00:23 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:00:23 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:00:23 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:00:23 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:00:23 --> User Agent Class Initialized
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:00:23 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:00:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:00:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:00:23 --> Encryption Class Initialized
+INFO - 2019-08-19 20:00:23 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Person" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Customer" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Employee" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Module" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Item" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Sale" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Tax" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:00:23 --> Model "Expense" initialized
+INFO - 2019-08-19 20:00:23 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:00:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:00:23 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:00:23 --> Email Class Initialized
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:00:23 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:30:23 --> Final output sent to browser
+DEBUG - 2019-08-19 23:30:23 --> Total execution time: 0.1523
+INFO - 2019-08-19 20:00:26 --> Config Class Initialized
+INFO - 2019-08-19 20:00:26 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:00:26 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:00:26 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:00:26 --> URI Class Initialized
+INFO - 2019-08-19 20:00:26 --> Router Class Initialized
+INFO - 2019-08-19 20:00:26 --> Output Class Initialized
+INFO - 2019-08-19 20:00:26 --> Security Class Initialized
+DEBUG - 2019-08-19 20:00:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:00:26 --> CSRF cookie sent
+INFO - 2019-08-19 20:00:26 --> Input Class Initialized
+INFO - 2019-08-19 20:00:26 --> Language Class Initialized
+INFO - 2019-08-19 20:00:26 --> Loader Class Initialized
+INFO - 2019-08-19 20:00:26 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:00:26 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:00:26 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:00:26 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:00:26 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:00:26 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:00:26 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:00:26 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:00:26 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:00:26 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:00:26 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:00:26 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:00:26 --> User Agent Class Initialized
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:00:26 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:00:26 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:00:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:00:26 --> Encryption Class Initialized
+INFO - 2019-08-19 20:00:26 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Person" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Customer" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Employee" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Module" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Item" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Sale" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Tax" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:00:26 --> Model "Expense" initialized
+INFO - 2019-08-19 20:00:26 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:00:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:00:26 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:00:26 --> Email Class Initialized
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:00:26 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:30:26 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:30:26 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:30:26 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:30:26 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:30:26 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:30:26 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:30:26 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/invoice.php
+INFO - 2019-08-19 23:30:26 --> Final output sent to browser
+DEBUG - 2019-08-19 23:30:26 --> Total execution time: 0.1612
+INFO - 2019-08-19 20:00:42 --> Config Class Initialized
+INFO - 2019-08-19 20:00:42 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:00:42 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:00:42 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:00:42 --> URI Class Initialized
+INFO - 2019-08-19 20:00:42 --> Router Class Initialized
+INFO - 2019-08-19 20:00:42 --> Output Class Initialized
+INFO - 2019-08-19 20:00:42 --> Security Class Initialized
+DEBUG - 2019-08-19 20:00:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:00:42 --> CSRF cookie sent
+INFO - 2019-08-19 20:00:42 --> Input Class Initialized
+INFO - 2019-08-19 20:00:42 --> Language Class Initialized
+INFO - 2019-08-19 20:00:42 --> Loader Class Initialized
+INFO - 2019-08-19 20:00:42 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:00:42 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:00:42 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:00:42 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:00:42 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:00:42 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:00:42 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:00:42 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:00:42 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:00:42 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:00:43 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:00:43 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:00:43 --> User Agent Class Initialized
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:00:43 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:00:43 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:00:43 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:00:43 --> Encryption Class Initialized
+INFO - 2019-08-19 20:00:43 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Person" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Customer" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Employee" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Module" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Item" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Sale" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Tax" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:00:43 --> Model "Expense" initialized
+INFO - 2019-08-19 20:00:43 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:00:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:00:43 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:00:43 --> Email Class Initialized
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:00:43 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:30:43 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:30:43 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:30:43 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:30:43 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:30:43 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:30:43 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:30:43 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/invoice.php
+INFO - 2019-08-19 23:30:43 --> Final output sent to browser
+DEBUG - 2019-08-19 23:30:43 --> Total execution time: 0.1538
+INFO - 2019-08-19 20:03:02 --> Config Class Initialized
+INFO - 2019-08-19 20:03:02 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:03:02 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:03:02 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:03:02 --> URI Class Initialized
+INFO - 2019-08-19 20:03:02 --> Router Class Initialized
+INFO - 2019-08-19 20:03:02 --> Output Class Initialized
+INFO - 2019-08-19 20:03:02 --> Security Class Initialized
+DEBUG - 2019-08-19 20:03:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:03:02 --> CSRF cookie sent
+INFO - 2019-08-19 20:03:02 --> Input Class Initialized
+INFO - 2019-08-19 20:03:02 --> Language Class Initialized
+INFO - 2019-08-19 20:03:02 --> Loader Class Initialized
+INFO - 2019-08-19 20:03:03 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:03:03 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:03:03 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:03:03 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:03:03 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:03:03 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:03:03 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:03:03 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:03:03 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:03:03 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:03:03 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:03:03 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:03:03 --> User Agent Class Initialized
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:03:03 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:03:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:03:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:03:03 --> Encryption Class Initialized
+INFO - 2019-08-19 20:03:03 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Person" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Customer" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Employee" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Module" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Item" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Sale" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Tax" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:03:03 --> Model "Expense" initialized
+INFO - 2019-08-19 20:03:03 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:03:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:03:03 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:03:03 --> Email Class Initialized
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:03:03 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:33:03 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:33:03 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:33:03 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:33:03 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:33:03 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:33:03 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:33:03 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/invoice.php
+INFO - 2019-08-19 23:33:03 --> Final output sent to browser
+DEBUG - 2019-08-19 23:33:03 --> Total execution time: 0.1512
+INFO - 2019-08-19 20:03:28 --> Config Class Initialized
+INFO - 2019-08-19 20:03:28 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:03:28 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:03:28 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:03:28 --> URI Class Initialized
+INFO - 2019-08-19 20:03:28 --> Router Class Initialized
+INFO - 2019-08-19 20:03:28 --> Output Class Initialized
+INFO - 2019-08-19 20:03:28 --> Security Class Initialized
+DEBUG - 2019-08-19 20:03:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:03:28 --> CSRF cookie sent
+INFO - 2019-08-19 20:03:28 --> Input Class Initialized
+INFO - 2019-08-19 20:03:28 --> Language Class Initialized
+INFO - 2019-08-19 20:03:28 --> Loader Class Initialized
+INFO - 2019-08-19 20:03:28 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:03:28 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:03:28 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:03:28 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:03:28 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:03:28 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:03:28 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:03:28 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:03:28 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:03:28 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:03:28 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:03:28 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:03:28 --> User Agent Class Initialized
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:03:28 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:03:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:03:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:03:28 --> Encryption Class Initialized
+INFO - 2019-08-19 20:03:28 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Person" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Customer" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Employee" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Module" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Item" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Sale" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Tax" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:03:28 --> Model "Expense" initialized
+INFO - 2019-08-19 20:03:28 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:03:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:03:28 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:03:28 --> Email Class Initialized
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:03:28 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:33:28 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:33:28 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:33:28 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:33:28 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:33:28 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:33:28 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:33:28 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/invoice.php
+INFO - 2019-08-19 23:33:28 --> Final output sent to browser
+DEBUG - 2019-08-19 23:33:28 --> Total execution time: 0.1391
+INFO - 2019-08-19 20:03:37 --> Config Class Initialized
+INFO - 2019-08-19 20:03:37 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:03:37 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:03:37 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:03:37 --> URI Class Initialized
+INFO - 2019-08-19 20:03:37 --> Router Class Initialized
+INFO - 2019-08-19 20:03:37 --> Output Class Initialized
+INFO - 2019-08-19 20:03:37 --> Security Class Initialized
+DEBUG - 2019-08-19 20:03:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:03:37 --> CSRF cookie sent
+INFO - 2019-08-19 20:03:37 --> Input Class Initialized
+INFO - 2019-08-19 20:03:37 --> Language Class Initialized
+INFO - 2019-08-19 20:03:37 --> Loader Class Initialized
+INFO - 2019-08-19 20:03:37 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:03:37 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:03:37 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:03:37 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:03:37 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:03:37 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:03:37 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:03:37 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:03:37 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:03:37 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:03:37 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:03:37 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:03:37 --> User Agent Class Initialized
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:03:37 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:03:37 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:03:37 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:03:37 --> Encryption Class Initialized
+INFO - 2019-08-19 20:03:37 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Person" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Customer" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Employee" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Module" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Item" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Sale" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Tax" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:03:37 --> Model "Expense" initialized
+INFO - 2019-08-19 20:03:37 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:03:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:03:37 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:03:37 --> Email Class Initialized
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:03:37 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:33:37 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:33:37 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:33:37 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:33:37 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:33:37 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:33:37 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/register.php
+INFO - 2019-08-19 23:33:37 --> Final output sent to browser
+DEBUG - 2019-08-19 23:33:37 --> Total execution time: 0.1308
+INFO - 2019-08-19 20:03:39 --> Config Class Initialized
+INFO - 2019-08-19 20:03:39 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:03:39 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:03:39 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:03:39 --> URI Class Initialized
+INFO - 2019-08-19 20:03:39 --> Router Class Initialized
+INFO - 2019-08-19 20:03:39 --> Output Class Initialized
+INFO - 2019-08-19 20:03:39 --> Security Class Initialized
+DEBUG - 2019-08-19 20:03:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:03:39 --> CSRF cookie sent
+INFO - 2019-08-19 20:03:39 --> Input Class Initialized
+INFO - 2019-08-19 20:03:39 --> Language Class Initialized
+INFO - 2019-08-19 20:03:39 --> Loader Class Initialized
+INFO - 2019-08-19 20:03:39 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:03:39 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:03:39 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:03:39 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:03:39 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:03:39 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:03:39 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:03:39 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:03:39 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:03:39 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:03:39 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:03:39 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:03:39 --> User Agent Class Initialized
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:03:39 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:03:39 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:03:39 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:03:39 --> Encryption Class Initialized
+INFO - 2019-08-19 20:03:39 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Person" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Customer" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Employee" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Module" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Item" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Sale" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Tax" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:03:39 --> Model "Expense" initialized
+INFO - 2019-08-19 20:03:39 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:03:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:03:39 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:03:39 --> Email Class Initialized
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:03:39 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:33:39 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:33:39 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:33:39 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+INFO - 2019-08-19 23:33:39 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/daterangepicker.php
+INFO - 2019-08-19 23:33:39 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/bootstrap_tables_locale.php
+INFO - 2019-08-19 23:33:39 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:33:39 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:33:39 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/manage.php
+INFO - 2019-08-19 23:33:39 --> Final output sent to browser
+DEBUG - 2019-08-19 23:33:39 --> Total execution time: 0.1321
+INFO - 2019-08-19 20:03:39 --> Config Class Initialized
+INFO - 2019-08-19 20:03:39 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:03:39 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:03:39 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:03:39 --> URI Class Initialized
+INFO - 2019-08-19 20:03:39 --> Router Class Initialized
+INFO - 2019-08-19 20:03:39 --> Output Class Initialized
+INFO - 2019-08-19 20:03:40 --> Security Class Initialized
+DEBUG - 2019-08-19 20:03:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:03:40 --> CSRF cookie sent
+INFO - 2019-08-19 20:03:40 --> Input Class Initialized
+INFO - 2019-08-19 20:03:40 --> Language Class Initialized
+INFO - 2019-08-19 20:03:40 --> Loader Class Initialized
+INFO - 2019-08-19 20:03:40 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:03:40 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:03:40 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:03:40 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:03:40 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:03:40 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:03:40 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:03:40 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:03:40 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:03:40 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:03:40 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:03:40 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:03:40 --> User Agent Class Initialized
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:03:40 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:03:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:03:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:03:40 --> Encryption Class Initialized
+INFO - 2019-08-19 20:03:40 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Person" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Customer" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Employee" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Module" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Item" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Sale" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Tax" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:03:40 --> Model "Expense" initialized
+INFO - 2019-08-19 20:03:40 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:03:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:03:40 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:03:40 --> Email Class Initialized
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:03:40 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:33:40 --> Final output sent to browser
+DEBUG - 2019-08-19 23:33:40 --> Total execution time: 0.1867
+INFO - 2019-08-19 20:03:47 --> Config Class Initialized
+INFO - 2019-08-19 20:03:47 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:03:47 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:03:47 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:03:47 --> URI Class Initialized
+INFO - 2019-08-19 20:03:47 --> Router Class Initialized
+INFO - 2019-08-19 20:03:47 --> Output Class Initialized
+INFO - 2019-08-19 20:03:47 --> Security Class Initialized
+DEBUG - 2019-08-19 20:03:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:03:47 --> CSRF cookie sent
+INFO - 2019-08-19 20:03:47 --> Input Class Initialized
+INFO - 2019-08-19 20:03:47 --> Language Class Initialized
+INFO - 2019-08-19 20:03:47 --> Loader Class Initialized
+INFO - 2019-08-19 20:03:47 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:03:47 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:03:47 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:03:47 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:03:47 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:03:47 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:03:47 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:03:47 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:03:47 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:03:47 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:03:47 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:03:47 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:03:47 --> User Agent Class Initialized
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:03:47 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:03:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:03:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:03:47 --> Encryption Class Initialized
+INFO - 2019-08-19 20:03:47 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Person" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Customer" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Employee" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Module" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Item" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Sale" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Tax" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:03:47 --> Model "Expense" initialized
+INFO - 2019-08-19 20:03:47 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:03:47 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:03:47 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:03:47 --> Email Class Initialized
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:03:47 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:33:47 --> Final output sent to browser
+DEBUG - 2019-08-19 23:33:47 --> Total execution time: 0.3593
+INFO - 2019-08-19 20:03:54 --> Config Class Initialized
+INFO - 2019-08-19 20:03:54 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:03:54 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:03:54 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:03:54 --> URI Class Initialized
+INFO - 2019-08-19 20:03:54 --> Router Class Initialized
+INFO - 2019-08-19 20:03:54 --> Output Class Initialized
+INFO - 2019-08-19 20:03:54 --> Security Class Initialized
+DEBUG - 2019-08-19 20:03:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:03:54 --> CSRF cookie sent
+INFO - 2019-08-19 20:03:54 --> Input Class Initialized
+INFO - 2019-08-19 20:03:54 --> Language Class Initialized
+INFO - 2019-08-19 20:03:54 --> Loader Class Initialized
+INFO - 2019-08-19 20:03:54 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:03:54 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:03:54 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:03:54 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:03:54 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:03:54 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:03:54 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:03:54 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:03:54 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:03:54 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:03:54 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:03:54 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:03:54 --> User Agent Class Initialized
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:03:54 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:03:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:03:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:03:54 --> Encryption Class Initialized
+INFO - 2019-08-19 20:03:54 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Person" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Customer" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Employee" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Module" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Item" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Sale" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Tax" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:03:54 --> Model "Expense" initialized
+INFO - 2019-08-19 20:03:54 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:03:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:03:54 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:03:54 --> Email Class Initialized
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:03:54 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:33:54 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:33:54 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:33:54 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:33:54 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:33:54 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:33:54 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:33:54 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/invoice.php
+INFO - 2019-08-19 23:33:54 --> Final output sent to browser
+DEBUG - 2019-08-19 23:33:54 --> Total execution time: 0.1527
+INFO - 2019-08-19 20:04:11 --> Config Class Initialized
+INFO - 2019-08-19 20:04:11 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:11 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:11 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:11 --> URI Class Initialized
+INFO - 2019-08-19 20:04:11 --> Router Class Initialized
+INFO - 2019-08-19 20:04:11 --> Output Class Initialized
+INFO - 2019-08-19 20:04:11 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:11 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:11 --> Input Class Initialized
+INFO - 2019-08-19 20:04:11 --> Language Class Initialized
+INFO - 2019-08-19 20:04:11 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:11 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:11 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:11 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:11 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:11 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:11 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:11 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:11 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:11 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:11 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:11 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:11 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:12 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:12 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:12 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:12 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:12 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:12 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:12 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:12 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:12 --> Email Class Initialized
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:12 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:34:12 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:34:12 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+INFO - 2019-08-19 23:34:12 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/daterangepicker.php
+INFO - 2019-08-19 23:34:12 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/bootstrap_tables_locale.php
+INFO - 2019-08-19 23:34:12 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:34:12 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:34:12 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/manage.php
+INFO - 2019-08-19 23:34:12 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:12 --> Total execution time: 0.1259
+INFO - 2019-08-19 20:04:12 --> Config Class Initialized
+INFO - 2019-08-19 20:04:12 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:12 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:12 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:12 --> URI Class Initialized
+INFO - 2019-08-19 20:04:12 --> Router Class Initialized
+INFO - 2019-08-19 20:04:12 --> Output Class Initialized
+INFO - 2019-08-19 20:04:12 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:12 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:12 --> Input Class Initialized
+INFO - 2019-08-19 20:04:12 --> Language Class Initialized
+INFO - 2019-08-19 20:04:12 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:12 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:12 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:12 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:12 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:12 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:12 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:12 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:12 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:12 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:12 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:12 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:12 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:12 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:12 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:12 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:12 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:12 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:12 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:12 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:12 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:12 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:12 --> Email Class Initialized
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:12 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:12 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:12 --> Total execution time: 0.2203
+INFO - 2019-08-19 20:04:15 --> Config Class Initialized
+INFO - 2019-08-19 20:04:15 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:15 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:15 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:15 --> URI Class Initialized
+INFO - 2019-08-19 20:04:15 --> Router Class Initialized
+INFO - 2019-08-19 20:04:15 --> Output Class Initialized
+INFO - 2019-08-19 20:04:15 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:15 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:15 --> Input Class Initialized
+INFO - 2019-08-19 20:04:15 --> Language Class Initialized
+INFO - 2019-08-19 20:04:15 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:15 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:15 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:15 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:15 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:15 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:15 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:15 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:15 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:15 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:15 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:15 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:15 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:15 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:15 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:15 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:15 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:15 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:15 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:15 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:15 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:15 --> Email Class Initialized
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:15 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:15 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:34:15 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:34:15 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:34:15 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:34:15 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:34:15 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:34:15 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/invoice.php
+INFO - 2019-08-19 23:34:15 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:15 --> Total execution time: 0.1401
+INFO - 2019-08-19 20:04:22 --> Config Class Initialized
+INFO - 2019-08-19 20:04:22 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:22 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:22 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:22 --> URI Class Initialized
+INFO - 2019-08-19 20:04:22 --> Router Class Initialized
+INFO - 2019-08-19 20:04:22 --> Output Class Initialized
+INFO - 2019-08-19 20:04:22 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:22 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:22 --> Input Class Initialized
+INFO - 2019-08-19 20:04:22 --> Language Class Initialized
+INFO - 2019-08-19 20:04:22 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:22 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:22 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:22 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:22 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:22 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:22 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:22 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:22 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:22 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:22 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:22 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:23 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:23 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:23 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:23 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:23 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:23 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:23 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:23 --> Email Class Initialized
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:23 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:34:23 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:34:23 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+INFO - 2019-08-19 23:34:23 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/daterangepicker.php
+INFO - 2019-08-19 23:34:23 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/bootstrap_tables_locale.php
+INFO - 2019-08-19 23:34:23 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:34:23 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:34:23 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/manage.php
+INFO - 2019-08-19 23:34:23 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:23 --> Total execution time: 0.6989
+INFO - 2019-08-19 20:04:23 --> Config Class Initialized
+INFO - 2019-08-19 20:04:23 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:23 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:23 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:23 --> URI Class Initialized
+INFO - 2019-08-19 20:04:23 --> Router Class Initialized
+INFO - 2019-08-19 20:04:23 --> Output Class Initialized
+INFO - 2019-08-19 20:04:23 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:23 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:23 --> Input Class Initialized
+INFO - 2019-08-19 20:04:23 --> Language Class Initialized
+INFO - 2019-08-19 20:04:23 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:23 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:23 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:23 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:23 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:23 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:23 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:23 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:23 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:23 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:23 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:23 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:23 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:23 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:23 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:23 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:23 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:23 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:23 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:23 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:23 --> Email Class Initialized
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:23 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:23 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:23 --> Total execution time: 0.1572
+INFO - 2019-08-19 20:04:26 --> Config Class Initialized
+INFO - 2019-08-19 20:04:26 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:26 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:26 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:26 --> URI Class Initialized
+INFO - 2019-08-19 20:04:26 --> Router Class Initialized
+INFO - 2019-08-19 20:04:26 --> Output Class Initialized
+INFO - 2019-08-19 20:04:26 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:26 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:26 --> Input Class Initialized
+INFO - 2019-08-19 20:04:26 --> Language Class Initialized
+INFO - 2019-08-19 20:04:26 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:26 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:26 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:26 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:26 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:26 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:26 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:26 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:26 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:26 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:26 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:26 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:26 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:26 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:26 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:26 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:26 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:26 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:26 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:26 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:26 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:26 --> Email Class Initialized
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:26 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:26 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:26 --> Total execution time: 0.3156
+INFO - 2019-08-19 20:04:29 --> Config Class Initialized
+INFO - 2019-08-19 20:04:29 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:29 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:29 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:29 --> URI Class Initialized
+INFO - 2019-08-19 20:04:29 --> Router Class Initialized
+INFO - 2019-08-19 20:04:29 --> Output Class Initialized
+INFO - 2019-08-19 20:04:29 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:29 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:29 --> Input Class Initialized
+INFO - 2019-08-19 20:04:29 --> Language Class Initialized
+INFO - 2019-08-19 20:04:29 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:29 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:29 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:29 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:29 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:29 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:29 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:29 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:29 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:29 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:29 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:29 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:29 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:29 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:29 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:29 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:29 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:29 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:29 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:29 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:29 --> Email Class Initialized
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:29 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:29 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:34:29 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:34:29 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:34:29 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:34:29 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:34:29 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:34:29 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/invoice.php
+INFO - 2019-08-19 23:34:29 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:29 --> Total execution time: 0.2151
+INFO - 2019-08-19 20:04:44 --> Config Class Initialized
+INFO - 2019-08-19 20:04:44 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:44 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:44 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:44 --> URI Class Initialized
+INFO - 2019-08-19 20:04:44 --> Router Class Initialized
+INFO - 2019-08-19 20:04:44 --> Output Class Initialized
+INFO - 2019-08-19 20:04:44 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:44 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:44 --> Input Class Initialized
+INFO - 2019-08-19 20:04:44 --> Language Class Initialized
+INFO - 2019-08-19 20:04:44 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:44 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:44 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:44 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:44 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:44 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:44 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:44 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:44 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:44 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:44 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:44 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:44 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:44 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:44 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:44 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:44 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:44 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:44 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:44 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:44 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:44 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:44 --> Email Class Initialized
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:44 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:44 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:34:44 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:34:44 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+DEBUG - 2019-08-19 23:34:44 --> Sale_lib class already loaded. Second attempt ignored.
+INFO - 2019-08-19 23:34:44 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:34:44 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/register.php
+INFO - 2019-08-19 23:34:44 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:44 --> Total execution time: 0.1213
+INFO - 2019-08-19 20:04:46 --> Config Class Initialized
+INFO - 2019-08-19 20:04:46 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:46 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:46 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:46 --> URI Class Initialized
+INFO - 2019-08-19 20:04:46 --> Router Class Initialized
+INFO - 2019-08-19 20:04:46 --> Output Class Initialized
+INFO - 2019-08-19 20:04:46 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:46 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:46 --> Input Class Initialized
+INFO - 2019-08-19 20:04:46 --> Language Class Initialized
+INFO - 2019-08-19 20:04:46 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:46 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:46 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:46 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:46 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:46 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:46 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:46 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:46 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:46 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:46 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:46 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:46 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:46 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:46 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:46 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:46 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:46 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:46 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:46 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:46 --> Email Class Initialized
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:46 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:46 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header_js.php
+INFO - 2019-08-19 23:34:46 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/lang_lines.php
+INFO - 2019-08-19 23:34:46 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/header.php
+INFO - 2019-08-19 23:34:46 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/daterangepicker.php
+INFO - 2019-08-19 23:34:46 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/bootstrap_tables_locale.php
+INFO - 2019-08-19 23:34:46 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/print_receipt.php
+INFO - 2019-08-19 23:34:46 --> File loaded: C:\xampp\htdocs\magnessa\application\views\partial/footer.php
+INFO - 2019-08-19 23:34:46 --> File loaded: C:\xampp\htdocs\magnessa\application\views\sales/manage.php
+INFO - 2019-08-19 23:34:46 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:46 --> Total execution time: 0.1124
+INFO - 2019-08-19 20:04:48 --> Config Class Initialized
+INFO - 2019-08-19 20:04:48 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:48 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:48 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:48 --> URI Class Initialized
+INFO - 2019-08-19 20:04:48 --> Router Class Initialized
+INFO - 2019-08-19 20:04:48 --> Output Class Initialized
+INFO - 2019-08-19 20:04:48 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:48 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:48 --> Input Class Initialized
+INFO - 2019-08-19 20:04:48 --> Language Class Initialized
+INFO - 2019-08-19 20:04:48 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:48 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:48 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:48 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:48 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:48 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:48 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:48 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:48 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:48 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:48 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:48 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:48 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:48 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:48 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:48 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:48 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:48 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:48 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:48 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:48 --> Email Class Initialized
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:48 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:48 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:48 --> Total execution time: 0.1227
+INFO - 2019-08-19 20:04:51 --> Config Class Initialized
+INFO - 2019-08-19 20:04:51 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:04:51 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:04:51 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:04:51 --> URI Class Initialized
+INFO - 2019-08-19 20:04:51 --> Router Class Initialized
+INFO - 2019-08-19 20:04:51 --> Output Class Initialized
+INFO - 2019-08-19 20:04:51 --> Security Class Initialized
+DEBUG - 2019-08-19 20:04:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:04:51 --> CSRF cookie sent
+INFO - 2019-08-19 20:04:51 --> Input Class Initialized
+INFO - 2019-08-19 20:04:51 --> Language Class Initialized
+INFO - 2019-08-19 20:04:51 --> Loader Class Initialized
+INFO - 2019-08-19 20:04:51 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:04:51 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:04:51 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:04:51 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:04:51 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:04:51 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:04:51 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:04:51 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:04:51 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:04:51 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:04:51 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:04:51 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:04:51 --> User Agent Class Initialized
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:04:51 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:04:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:04:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:04:51 --> Encryption Class Initialized
+INFO - 2019-08-19 20:04:51 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Person" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Customer" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Employee" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Module" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Item" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Sale" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Tax" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:04:51 --> Model "Expense" initialized
+INFO - 2019-08-19 20:04:51 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:04:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:04:51 --> Model "Rounding_mode" initialized
+INFO - 2019-08-19 20:04:51 --> Email Class Initialized
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:04:51 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:34:51 --> Final output sent to browser
+DEBUG - 2019-08-19 23:34:51 --> Total execution time: 0.2925
+INFO - 2019-08-19 20:05:08 --> Config Class Initialized
+INFO - 2019-08-19 20:05:08 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:05:08 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:05:08 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:05:08 --> URI Class Initialized
+INFO - 2019-08-19 20:05:08 --> Router Class Initialized
+INFO - 2019-08-19 20:05:08 --> Output Class Initialized
+INFO - 2019-08-19 20:05:08 --> Security Class Initialized
+DEBUG - 2019-08-19 20:05:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:05:08 --> CSRF cookie sent
+INFO - 2019-08-19 20:05:08 --> Input Class Initialized
+INFO - 2019-08-19 20:05:08 --> Language Class Initialized
+INFO - 2019-08-19 20:05:08 --> Loader Class Initialized
+INFO - 2019-08-19 20:05:08 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:05:08 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:05:08 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:05:08 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:05:08 --> User Agent Class Initialized
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:05:08 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:05:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:05:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:05:08 --> Encryption Class Initialized
+INFO - 2019-08-19 20:05:08 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Person" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Customer" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Employee" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Module" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Sale" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Tax" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Expense" initialized
+INFO - 2019-08-19 20:05:08 --> Controller Class Initialized
+DEBUG - 2019-08-19 20:05:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 20:05:08 --> Config Class Initialized
+INFO - 2019-08-19 20:05:08 --> Hooks Class Initialized
+DEBUG - 2019-08-19 20:05:08 --> UTF-8 Support Enabled
+INFO - 2019-08-19 20:05:08 --> Utf8 Class Initialized
+INFO - 2019-08-19 20:05:08 --> URI Class Initialized
+INFO - 2019-08-19 20:05:08 --> Router Class Initialized
+INFO - 2019-08-19 20:05:08 --> Output Class Initialized
+INFO - 2019-08-19 20:05:08 --> Security Class Initialized
+DEBUG - 2019-08-19 20:05:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-08-19 20:05:08 --> CSRF cookie sent
+INFO - 2019-08-19 20:05:08 --> Input Class Initialized
+INFO - 2019-08-19 20:05:08 --> Language Class Initialized
+INFO - 2019-08-19 20:05:08 --> Loader Class Initialized
+INFO - 2019-08-19 20:05:08 --> Helper loaded: form_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: url_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: tabular_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: text_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: locale_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: html_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: download_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: directory_helper
+INFO - 2019-08-19 20:05:08 --> Helper loaded: migration_helper
+INFO - 2019-08-19 20:05:08 --> Database Driver Class Initialized
+INFO - 2019-08-19 20:05:08 --> Form Validation Class Initialized
+INFO - 2019-08-19 20:05:08 --> Session: Class initialized using 'database' driver.
+INFO - 2019-08-19 20:05:08 --> User Agent Class Initialized
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2019-08-19 20:05:08 --> Pagination Class Initialized
+DEBUG - 2019-08-19 20:05:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2019-08-19 20:05:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2019-08-19 20:05:08 --> Encryption Class Initialized
+INFO - 2019-08-19 20:05:08 --> Model "Appconfig" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Person" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Customer" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Employee" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Module" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item_taxes" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Sale" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Supplier" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Inventory" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Receiving" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Giftcard" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item_kit" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item_kit_items" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Stock_location" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Item_quantity" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Dinner_table" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Customer_rewards" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Rewards" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Tax" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Expense_category" initialized
+INFO - 2019-08-19 20:05:08 --> Model "Expense" initialized
+INFO - 2019-08-19 20:05:08 --> Controller Class Initialized
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/calendar_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/date_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/db_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/email_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/ftp_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/imglib_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/migration_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/number_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/profiler_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/unit_test_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/english/upload_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/bootstrap_tables_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/common_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/config_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/customers_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/datepicker_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/employees_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/enum_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/error_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/expenses_categories_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/expenses_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/giftcards_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/items_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/item_kits_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/login_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/messages_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/module_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/receivings_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/reports_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/sales_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/suppliers_lang.php
+INFO - 2019-08-19 20:05:08 --> Language file loaded: language/en-GB/taxes_lang.php
+INFO - 2019-08-19 23:35:08 --> File loaded: C:\xampp\htdocs\magnessa\application\views\login.php
+INFO - 2019-08-19 23:35:08 --> Final output sent to browser
+DEBUG - 2019-08-19 23:35:08 --> Total execution time: 0.0849
