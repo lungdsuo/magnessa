@@ -151,19 +151,44 @@ function get_sale_data_last_row($sales)
 	$sum_amount_due = 0;
 	$sum_amount_tendered = 0;
 	$sum_change_due = 0;
+	$final_pv = 0;
 
 	foreach ($sales->result() as $key => $sale) {
 		$sum_amount_due += $sale->amount_due;
 		$sum_amount_tendered += $sale->amount_tendered;
 		$sum_change_due += $sale->change_due;
+		$data = $CI->Sale->get_sales_items_items_id($sale->sale_id);
+		//$CI->load->library('sale_lib');
+		//$item_info = $CI->Item->get_info_by_id(2);
+		//$pv_val = 0;
+		foreach ($data as $row) {
+			$item_info = $CI->Item->get_info_by_id($row['item_id']);
+			//$pv = $item_info;
+			if (empty($item_info)) {
+				$pv = 0;
+			} else {
+				$pv = $item_info;
+			}
+			if (empty($row['quantity_purchased'])) {
+				$quantity = 0;
+			} else {
+				$quantity = $row['quantity_purchased'];
+			}
+			//$pv = $CI->sale_lib->get_item_pv_by_id($row['item_id']);
+			//$pv = $row['item_id'];
+
+			$final_pv += $pv * $quantity;
+			//echo $row['item_id'];
+		}
+		//$final_pv += $sale->sale_id;
 	}
 
 	return array(
 		'sale_id' => '-',
 		'sale_time' => '<b>' . $CI->lang->line('sales_total') . '</b>',
 		'amount_due' => '<b>' . to_currency($sum_amount_due) . '</b>',
-		'amount_tendered' => '<b>' . to_currency($sum_amount_tendered) . '</b>'
-		/* 'change_due' => '<b>' . to_currency($sum_change_due) . '</b>' */
+		'amount_tendered' => '<b>' . to_currency($sum_amount_tendered) . '</b>',
+		'change_due' => '<b>' . $final_pv . '</b>'
 	);
 }
 
